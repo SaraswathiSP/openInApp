@@ -46,7 +46,7 @@
 
 
 
-@media screen and (min-width:678px){
+@media screen and (min-width:850px){
     .left-section-cont{
         display: none;
     }
@@ -60,7 +60,7 @@
 
 }
 
-@media screen and (max-width:679px){
+@media screen and (max-width:851px){
     .left-section-cont{
         z-index:9;
     }

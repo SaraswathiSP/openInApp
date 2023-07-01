@@ -7,7 +7,7 @@
     width:100%;
 }
 
-@media screen and (max-width:678px) {
+@media screen and (max-width:850px) {
     .home-container{
         display: flex;
         flex-direction: column;
