@@ -5,6 +5,7 @@
     border-radius: 15px;
     padding:50px;
     margin:30px;
+    transition: 0.3s ease-in-out;
 
 }
 
@@ -63,6 +64,9 @@
 @media screen and (max-width:851px){
     .left-section-cont{
         z-index:9;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        
+        transition: 0.3s ease-in-out;
     }
     .left-section-cont-large{
         display: none;
