@@ -33,6 +33,7 @@ const LoginPage = () =>{
           />
   
         </GoogleOAuthProvider> 
+        <img className='apple-sign-button' src="https://res.cloudinary.com/dg0telgxq/image/upload/v1688267130/Apple_Sign_In_m1fr4h.png" alt="apple-login"/>
                 </div>
                 <div className='login-form'>
                     <label className='label' htmlFor='email'>Email address</label>

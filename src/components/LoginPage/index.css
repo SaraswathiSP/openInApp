@@ -1,24 +1,39 @@
 .login-container{
     display: flex;
+    width:100%;
+    height:100%;
+    background-size: cover;
    }
    
 .left-container{
     height: 100vh;
     background-color: #000;
-    width:40vw;
+    width:40%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+@media screen and (max-width:465px){
+    .left-container{
+        display: none;
+    }
+    .right-container{
+        width: 100%;
+        height: 100%;
+        margin-left: 30px;
+        background-color: #fff;
+        
+    }
+}
+
 @media screen and (max-width:850px){
    .left-container{
-    width: 20vw;
+    width: 20%;
    }
 
    .right-container{
-    width:80vw !important;
-   
+    width:80%;
     background-color: #fff;
    }
 
@@ -29,42 +44,60 @@
     
 }
    
-   .left-container-text{
+.left-container-text{
        color:#fff;
        font-size: 30px;
        
-   }
+}
    
-   .right-container{
+.right-container{
        display: flex;
        justify-content: center;
        align-items: center;
-       width:60vw;
+       width:60%;
        background-color: #F5F5F5;
-       height: 100vh;
-   }
+       height: 100%;
+}
    
-   .login-form-container{
+.login-form-container{
        display: flex;
        flex-direction: column;
-   }
-   
-   .sign-in-heading{
+}
+.sign-in-heading{
        font-size: 36px;
    
-   }
+}
    
-   .sign-in-sub-heading{
+.sign-in-sub-heading{
        font-size: 12px;
        font-weight: 400;
        margin-top: -24px;
-   }
+}
    
-   .login-buttons{
+.login-buttons{
        display: flex;
+}
+
+
+@media screen and (max-width: 768px){
+   .login-buttons{
+    display: flex;
+    flex-direction: column;
    }
+
+   .apple-sign-button{
+    margin-top: 20px;
+    height: 45px;
+    width:200px
+
+   }
+}
+
+.apple-sign-button{
+    margin-left: 20px;
+}
    
-   .login-form{
+.login-form{
        display: flex;
        flex-direction: column;
        width: 385px;
@@ -72,9 +105,9 @@
        border-radius: 10px;
        border: 1px;
    
-   }
+}
    
-   .label{
+.label{
        font-family: Lato;
    font-size: 16px;
    font-weight: 400;
@@ -85,9 +118,9 @@
    margin-bottom: 15px;
    
    
-   }
+}
    
-   .input12{
+.input12{
        background-color: #EAEAEA;
        border-radius: 10px;
        height: 40px;
@@ -95,7 +128,7 @@
        width:325px;
        padding-left: 10px;
    
-   }
+}
    
    .forgot-text{
        color:#346BD4;
@@ -108,9 +141,10 @@
        border-radius: 10px;
        color: #fff;
       font-weight: 700;
-       
+       width:90%;
        text-align: center;
        border:none;
+       cursor:pointer;
    }
    
    
